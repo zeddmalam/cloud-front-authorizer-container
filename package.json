@@ -1,0 +1,25 @@
+{
+  "name": "cloud-front-authorizer-container",
+  "version": "1.0.0",
+  "description": "Is a layer with node js proxy server which provides out of the box opentracing for your application on kube container level.",
+  "main": "index.js",
+  "dependencies": {
+    "aws-cloudfront-sign": "^2.2.0",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules index",
+    "dev": "node --experimental-modules index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeddmalam/cloud-front-authorizer-container.git"
+  },
+  "author": "Dmytro Bukhanets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeddmalam/cloud-front-authorizer-container/issues"
+  },
+  "homepage": "https://github.com/zeddmalam/cloud-front-authorizer-container#readme"
+}

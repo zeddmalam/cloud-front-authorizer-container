@@ -1,0 +1,15 @@
+version: "2"
+services:
+  docker-tracer:
+    build: .
+    environment:
+      - PORT=3005
+      - NEXT_HOST=http://elasticsearch
+      - PRIVATE_KEY=privatekey
+      - KEYPAIR_ID=keypairid
+    ports:
+      - "3005:3005"
+#networks:
+#  default:
+#    external:
+#      name: elasticsearch
