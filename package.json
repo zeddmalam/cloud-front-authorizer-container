@@ -4,7 +4,7 @@
   "description": "Is a layer with node js proxy server which provides out of the box opentracing for your application on kube container level.",
   "main": "index.js",
   "dependencies": {
-    "aws-cloudfront-sign": "^2.2.0",
+    "aws-cloudfront-sign": "^2.2.0"
   },
   "devDependencies": {},
   "scripts": {
